@@ -1,4 +1,4 @@
-##code is explained in this page - https://codexpace.blogspot.com/2021/10/signverify.html
+##code is explained in this page - https://www.codexpace.ml/2021/10/signverify.html
 from OpenSSL.crypto import FILETYPE_PEM, TYPE_DSA, X509 ,dump_privatekey ,dump_publickey ,PKey, load_privatekey, load_publickey ,sign ,verify 
 from hashlib import sha1
 import sys 
